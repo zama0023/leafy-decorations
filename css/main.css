@@ -32,7 +32,6 @@ html {
 }
 
 .nav a:hover {
-  color:#2d5a4d;
   background-repeat: no-repeat;
   background-size: 64px auto;
   background-position: center center;
