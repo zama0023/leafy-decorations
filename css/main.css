@@ -8,11 +8,15 @@ html {
   background-image: url("../images/www/leaf-bg.svg");
   border: 3px solid #2d5a4d;
   background-color: #588477;
-
+  border-top: 3px solid #2d5a4d;
+  background-position: .2em center;
+  background-size: 64px auto;
+  background-repeat: repeat;
 }
 
 .logo {
   text-align: center;
+  color: #fff;
 }
 
 .nav {
@@ -29,11 +33,15 @@ html {
 
 .nav a:hover {
   color:#2d5a4d;
-
+  background-repeat: no-repeat;
+  background-size: 64px auto;
+  background-position: center center;
+  background-color: #fff;
+  background-image: url("../images/leaf-icon.svg");
 }
 
 .banner {
-
+  background-image: url("../images/www/banner.jpg");
 }
 
 .banner-content {
